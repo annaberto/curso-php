@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
         $pesoN1 = $_GET["peso1"] ?? 1;
         $pesoN2 = $_GET["peso2"] ?? 1;
         $mediaAritimetica = ($n1 + $n2) / 2;
-        $mediaPonderada = ($n1 * $pesoN1) + ($n2 * $pesoN2) / ($pesoN1 + $pesoN2);
+        $mediaPonderada= (($n1 * $pesoN1) + ($n2 * $pesoN2)) / ($pesoN1 + $pesoN2);
     ?>
     <main>
         <h1>Médias aritméticas</h1>

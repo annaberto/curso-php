@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,13 +23,8 @@
             $valor_convertido = $valor_reais / $cotacao;
             $valor_convertido = number_format($valor_convertido, 2, ",", ".");
             echo "<p> O valor de R$ $valor_reais convertido para Dólares é: <strong>US$ $valor_convertido</strong> </p>";
-            echo "<p> Cotação utilizada: R$ $cotacao </p>";
-        
-/*             Forma alternativa usando NumberFormatter, o bom é que esse padrão pt_BR pode ser convertido para outras moedas/paises com mais facilidade para edicção e formato correspondente.
-            $padrao = numfmt_create("pt_BR", NumberFormatter::CURRENCY);
-            echo "<p> O valor de ". numfmt_format_currency($padrao, $valor_reais, "BRL") . " convertido para Dólares é: <strong>" . numfmt_format_currency($padrao, $valor_convertido, "USD") . "</strong> </p>"; */
-
-            ?>
+            echo "<p> Cotação utilizada: R$ $cotacao </p>";        
+        ?>
             <button onclick="javascript:history.go(-1)"> Voltar </button>
 
     </main>

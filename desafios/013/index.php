@@ -8,15 +8,9 @@
     <style>
         .nota {
             height: 50px;
-            margin: 15px;
+            margin: 5px;
         }
     </style>
-<!--     <style>
-        .nota {
-            height: 50px;
-            margin: 15px;
-        }
-    </style> -->
 </head>
 <body>
     <main>
@@ -48,14 +42,12 @@
         <h2>Resultado</h2>
         <p>Você solicitou o saque de R$<?= number_format( $valorSaque, 2, ",", ".") ?></strong></p>
         <p>Serão entregues as seguintes cédulas:</p>
-        <div >
             <ul>
                 <li><img src="imagens/100-reais.jpg" alt="nota de 100" class="nota"> x <?= $nota100 ?></li>
                 <li><img src="imagens/50-reais.jpg" alt="nota de 50" class="nota"> x <?= $nota50 ?> </li>
                 <li><img src="imagens/10-reais.jpg" alt="nota de 10" class="nota"> x <?= $nota10 ?></li>
                 <li><img src="imagens/5-reais.jpg" alt="nota de 5" class="nota"> x <?= $nota5 ?></li>
             </ul>
-        </div>
     </section>
 </body>
 </html>

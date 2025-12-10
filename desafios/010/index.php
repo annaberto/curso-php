@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +9,8 @@
 <body>
     <?php
         $anoAtual = date("Y");
-        $anoNascimento = $_GET["anoNascimento"]; 
-        $anoFuturo = $_GET["anoFuturo"];
+        $anoNascimento = $_GET["anoNascimento"] ?? 0; 
+        $anoFuturo = $_GET["anoFuturo"] ?? $anoAtual;
         $idade = $anoAtual - $anoNascimento;
         $idadeFurtura = $anoFuturo - $anoNascimento;
     ?>
