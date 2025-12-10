@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +7,14 @@
 </head>
 <body>
     <?
-        // $nome = "Anna";
-        // $sobrenome = "Raphaela";
+        $nome = "Anna";
+        $sobrenome = "Raphaela";
 
-        // echo "Bem vindo, $nome $sobrenome <br>";
+        echo "Bem vindo, $nome $sobrenome <br>";
 
-        // date_default_timezone_set("America/Sao_Paulo");
-        // echo "<br> Hoje é dia date " . date("D/M/Y");
-        // echo "<br> A hora atual é " . date("G: i: s T");
-
-        $nome = "Anna Raphaela";
-        const ESTADO = "Rio de janeiro";
-        echo "Olá $nome" ;
-        echo '<br> Olá $nome';
-        echo "<br> moradora do" . ESTADO
-        
-
+        date_default_timezone_set("America/Sao_Paulo");
+        echo "<br> Hoje é dia date " . date("D/M/Y");
+        echo "<br> A hora atual é " . date("G: i: s T");
     ?>
 
 </body>

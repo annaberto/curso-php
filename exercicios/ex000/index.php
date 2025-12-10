@@ -9,6 +9,5 @@
     <?php 
         echo "Olá mundo do php"
     ?>
-    <p>body</p>
 </body>
 </html>

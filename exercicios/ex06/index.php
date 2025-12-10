@@ -13,8 +13,8 @@
 
 <body>
     <?php
-    $nome = $_GET['nome'];
-    $sobrenome = $_GET['sobrenome'];
+        $nome = $_GET['nome'] ?? '';
+        $sobrenome = $_GET['sobrenome'] ?? '';
     ?>
 
     <main>
@@ -34,5 +34,6 @@
         ?>
     </section>
 </body>
+
 
 </html>
