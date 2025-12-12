@@ -1,6 +1,6 @@
 # 📚 Curso PHP Moderno
 
-Este repositório documenta os estudos e desenvolvimentos práticos realizados durante o **Módulo 1** do curso de PHP moderno (Gustavo Guanabara). O projeto contém uma série de exercícios e desafios focados em consolidar os fundamentos da linguagem.
+Este repositório documenta os estudos e desenvolvimentos práticos realizados durante o **Módulo 1** do curso de [PHP moderno (Gustavo Guanabara)](https://www.cursoemvideo.com/curso/curso-de-php-moderno-modulo-01/). O projeto contém uma série de exercícios e desafios focados em consolidar os fundamentos da linguagem.
 
 **Ambiente:** O projeto é configurado para ser executado localmente utilizando o servidor **Apache** e o interpretador **PHP** via **XAMPP**.
 
